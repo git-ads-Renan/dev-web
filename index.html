@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules\bootstrap\compiler\bootstrap.css">
+  <link rel="stylesheet" href="style\css\style.css">
+  <link rel="stylesheet" href="node_modules\font-awesome\css\font-awesome.css">
+  <title>Desenv-Web</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">
+    <!-- Início do container da navbar -->
+    <div class="container">
+      <a class="navbar-brand h1 mb-0" href="#" id="navbarSite">GATO XADREZ FELTROS</a>
+      <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <!--div conteúdo da navbar -->
+      <!--<div class="collapse navbar-collapse" id="navbarSite">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Início</a>
+          </li>
+        </ul> -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Social</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://www.facebook.com" target="_blank">Facebook</a>
+              <a class="dropdown-item" href="https://www.instagram.com"target="_blank">Instagram</a>
+              <a class="dropdown-item" href="http://usuarios.upf.br/~189377"target="_blank">Minhas páginas HTML</a>
+            </div>
+          </li>
+        </ul>
+        <!-- Form simples para input de busca com botão -->
+        <form class="form-inline">
+          <input class="form-control ml-2 mr-4" type="search" placeholder="Buscar...">
+          <button class="btn btn-dark" type="submit" data-toggle="popover" data-placement="bottom"
+           data-trigger="focus" data-content="OPS! O site está em manutenção">Ok</button>
+        </form> <!-- Fim do form -->
+      </div> <!--Fim da div conteúdo da navbar -->
+    </div> <!-- Fim container do navbar -->
+  </nav>
+  <!--Início Carousel -->
+  <div id="carouselSite" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselSite" data-slide-to="1"></li>
+      <li data-target="#carouselSite" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img\9.jpg" class="img-fluid d-block" id="imgCenter">
+        <div class="carousel-caption d-none d-md-block text-dark">
+          <!--<h3>Lorem ipsum dolor sit amet, consectetur adipisicing e</h3>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing eli</p> -->
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="img\7.jpg" class="img-fluid d-block" id="imgCenter">
+        <div class="carousel-caption d-none d-md-block text-dark">
+          <!--<h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img\5.jpg" class="img-fluid d-block" id="imgCenter">
+        <div class="carousel-caption d-none d-md-block text-dark">
+          <!--<h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>-->
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Avançar</span>
+      </a>
+    </div>
+  </div> <!-- Fim Carousel -->
+  <!-- Início container para o conteúdo da página -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center my-5">
+        <h1 class="display-3"><i class="fa fa-rss fa-sm text-primary" aria-hidden="true"></i>Brinquedos e Recursos Criativos</h1>
+        <p>Artesanato em feltro</p>
+          <p>Desde 2016</p>
+      </div>
+    </div>
+    <div class="row mb-5"> <!--Navbar Vertical com scrollspy -->
+      <div class="col-sm-6 col-md-4 col-mb-3">
+        <nav id="navbarVertical" class="navbar navbar-light bg-light">
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#Sustentabilidade">Sustentabilidade</a><hr>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ml-3" href="#Criatividade">Criatividade</a><hr>
+              <a class="nav-link ml-3" href="#Diversao">Diversão</a>
+            </nav>
+          </nav>
+        </nav>
+      </div>
+      <div class="col-sm-6 col-8">
+        <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+          <h4 id="Sustentabilidade">Respeitamos o meio ambiente</h4>
+          <p>Vocês sabiam que cada metro quadrado do feltro utilizado aqui na Gato Xadrez, são utilizadas 12 garrafas pet tiradas da natureza e recicladas? Um dos maiores vilões do meio ambiente se torna matéria prima de peças lindas!</p>
+          <hr>
+          <h5 id="Criatividade">Brinquedos criativos</h5>
+          <p>Artesanato feito com muito carinho sempre pensando no bem estar e no desenvolvimento das crianças buscando despertar a curiosidade e estimular a brincadeira</p>
+          <hr>
+          <h6 id="Diversao">Festa junina!</h6>
+          <p>Junho está chegando e com ele uma das festas típicas mais conhecidas e comemoradas nessa época, a festa junina!
+          Porém esse ano será necessário ficarmos dentro de nossas casas, nos cuidando para o bem estar de todos.
+          Mas mesmo assim, não deixaremos de brincar! E para torná-lo um mês mais divertido, temo aqui uma versão mini da nossa pescaria! Essa brincadeira exige equilíbrio , é uma excelente maneira de exercitar a coordenação motora
+          e também um jeito muito gostoso de brincar de faz de conta! Aproveitem esse tempo em casa para criar momentos de diversão e construírem memórias divertidas em família! Confira abaixo alguns de nossas invenções. Estamos com novidades, não perca!</p>
+          </div>
+        </div>
+                </div>
+                <div class="row justify-content-sm-center"> <!-- Cards -->
+                  <div class="col-sm-6 col-md-4">
+                    <div class="card mb-5">
+                      <img class="card-img-top" src="img\4.jpg">
+                      <div class="card-body" id="card-1">
+                        <h4 class="card-title">Jogo da velha</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Jogo da velha em feltro</h6>
+                        <p class="card-text">Inspirado no clássico Super Mário Bross, esse jogo é muito divertido e para todas as idades</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Disponível (Sob encomenda)</li>
+                      </ul>
+                      <div class="card-body">
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Mais info...</a>
+                      </div>
+                      <div class="card-footer text-muted">
+                        Jogo da velha
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="card mb-5">
+                      <img class="card-img-top" src="img\10.jpg">
+                      <div class="card-body">
+                        <h4 class="card-title">Pescaria</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Mini pescaria em feltro</h6>
+                        <p class="card-text">Mostre para seus filhos eles irão adorar essa brincadeira! Faça sua encomenda que preparamos pra você</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Disponível (Sob encomenda)</li>
+                      </ul>
+                      <div class="card-body">
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Mais info...</a>
+                      </div>
+                      <div class="card-footer text-muted">
+                        Pescaria
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="card mb-5">
+                      <img class="card-img-top" src="img\11.jpg">
+                      <div class="card-body">
+                        <h4 class="card-title">Dedoches da Fazendinha</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Dedoches de animais</h6>
+                        <p class="card-text">Mostre para seus filhos eles irão adorar essa brincadeira! Faça sua encomenda que preparamos pra você</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Disponível (última unidade)</li>
+                      </ul>
+                      <div class="card-body">
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Mais info...</a>
+                      </div>
+                      <div class="card-footer text-muted">
+                        Dedoches da Fazendinha
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- Fim cards -->
+              </div> <!-- Fim container -->
+              <div class="jumbotron jumbotron-fluid"> <!-- Jumbotron -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <h1 class="display-4"><i class="fa fa-share fa-sm text-primary" aria-hidden="true"></i>Gostou do nosso site?</h1>
+                      <p class="lead"> A criação desta página HTML tem como objetivo aprimorar o desenvolvimento das habilidades e conceitos aprendidos em Desenvolvimento para Web utilizando o CSS com Boostrap e JS.</p>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <div class="col-12">
+                        <ul class="nav nav-pills justify-content-center" id="pills-nav" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="nav-pills-01" data-target="card-1" href="#card-1">Voltar para os produtos </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Tabela de preços</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-03" data-target="navbarSite" href="#navbarSite">Voltar ao topo</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="tab-content" id="nav-pills-content">
+                      <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+                        <!-- Lista de Preços e Produtos -->
+                        <table class="table table-secondary table-hover">
+                          <thead>
+                            <tr>
+                              <th scope="col">COD</th>
+                              <th scope="col">Produto</th>
+                              <th scope="col">Descrição</th>
+                              <th scope="col">Preço</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Produto 1</td>
+                              <td>Desc.Produto1</td>
+                              <td>R$ 50,00</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Produto 2</td>
+                              <td>Desc.Produto2</td>
+                              <td>R$ 50,00</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Produto 3</td>
+                              <td>Desc.Produto3</td>
+                              <td>R$ 50,00</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div> <!--Fim container jumbotron -->
+                </div> <!-- Fim Jumbotron -->
+                <div class="container"> <!-- Container Form -->
+                  <div class="row">
+                    <div class="col-12 text-center my-5">
+                      <h1><i class="fa fa-paw text-primary" aria-hidden="true"></i>Formulário</h1>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center mb-5">
+                    <div class="col-sm-12 col-md-10 col-lg-8">
+                      <form id="form-contato" name="formulario"> <!-- Início do formulário -->
+                        <div class="form-row">
+                          <div class="form-group col-sm-6">
+                          <label for="inputNome">Seu nome</label>
+                          <input type="text" class="form-control" id="inputNome"placeholder="Nome">
+                          </div>
+                          <div class="form-group col-sm-6">
+                            <label for="inputSobrenome">Seu telefone</label>
+                            <input type="tel" class="form-control" id="inputTelefone" placeholder="Telefone">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-sm-12">
+                            <label for="inputEnd">Seu endereço</label>
+                            <input type="text" class="form-control" id="inputEnd" placeholder="Endereço completo">
+                          </div>
+                        </div>
+                      <div class="form-row">
+                          <div class="form-group col-sm-6">
+                            <label for="inputCidade">Sua cidade</label>
+                            <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+                          </div>
+                          <div class="form-group col-sm-4">
+                            <label for="inputEst">Seu estado</label>
+                            <select id="inputEst" class="form-control">
+                              <option selected>Escolha...</option>
+                              <option>RS</option>
+                              <option>SC</option>
+                              <option>PR</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-sm-2">
+                            <label for="inputCep">Seu CEP</label>
+                            <input type="text" id="inputCep" class="form-control">
+                          </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-sm-12">
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox">Receber novidades por via SMS</input>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="col-sm-12">
+                        <button type="submit" class="btn btn-primary" onclick="validar()">Enviar</button>
+                        <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right"
+                         data-trigger="focus" title="Ajuda"
+                         data-content="Preencha os campos acima para receber informações sobre nossas novidades">Ajuda</a>
+                        </div>
+                      </div>
+                    </form> <!-- Fim formulário -->
+                  </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col-12"><hr></div>
+                </div>
+              </div> <!-- Fim container form -->
+
+
+
+
+                <div class="modal fade" id="siteModal" tabindex="-1" role="dialog"> <!-- Modal -->
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">titulo modal</h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                          <span>&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore
+                          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                          aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <script src="node_modules\jquery\dist\jquery.js"></script>
+                  <script src="form.js"></script>
+                  <script src="node_modules\popper.js\dist\umd\popper.js"></script>
+                  <script src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
+                  <script>
+                    $(function(){
+                      $('[data-toggle="popover"]').popover()
+                    }
+                  );
+                  </script>
+                </body>
+                </html>
